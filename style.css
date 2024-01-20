@@ -1,0 +1,746 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    height: 100%;
+}
+
+.emails {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    clear: both;
+    display: table;
+    padding: 10px;
+}
+
+.email ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.email {
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: end;
+    padding-right: 200px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 30%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+.navigation {
+    width: 70%;
+    float: left;
+    text-align: end;
+    padding: 15px;
+    padding-right: 100px;
+    padding-top: 25px;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 10px;
+    font-weight: 450;
+}
+
+.navigation ul li:hover {
+    color: orange;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+}
+
+nav button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+
+}
+
+.main img {
+    width: 100%;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    padding: 50px 150px;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    padding-right: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.content h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.content p {
+    font-weight: 400;
+}
+
+.content p,
+h1 {
+    padding-bottom: 25px;
+}
+
+.register {
+    width: 30%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+
+
+}
+
+.register h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.register input,
+textarea {
+    width: 300px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.courses,
+.trainings {
+    padding: 50px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.course,
+.training,
+.number {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    background-color: white;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: start;
+}
+
+.batches {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.batche-data {
+    padding: 50px 150px;
+}
+
+th {
+    background-color: darkslategray;
+    color: white;
+}
+
+.training img {
+    width: 25%;
+}
+
+.training figure {
+    background-color: white;
+    padding: 20px;
+
+    width: 100%;
+}
+
+.choose {
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.choose-1 {
+    width: 100%;
+    padding: 10px;
+}
+
+.left,
+.right {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.left h1,
+.right h1 {
+    color: red;
+    font-weight: 400;
+}
+
+.choose h1 {
+    font-weight: 400;
+}
+
+.numbers {
+    padding: 50px;
+    text-align: center;
+    background-color: blueviolet;
+    width: 100%;
+    height: 30vh;
+}
+
+.number figcaption {
+    background-color: transparent;
+    color: white;
+}
+.number .bi{
+    font-size: 50px;
+}
+
+.number h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: orange;
+}
+
+.students {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.student {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding: 30px;
+}
+
+.student h6 {
+    text-align: end;
+}
+
+.placements {
+    background-color: lightgrey;
+    width: 100%;
+    height: 40vh;
+    padding: 30px 100px;
+    text-align: center;
+}
+
+.placement {
+    width: 25%;
+    padding: 20px;
+    float: left;
+}
+
+.placement img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 4px orange;
+
+}
+
+.approach {
+    width: 100%;
+    height: 50vh;
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.approach h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.methods p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.methods {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.methods img {
+    width: 35%;
+}
+
+.methods figure {
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+
+.methods figcaption {
+    background-color: transparent;
+}
+
+.companies {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+
+.companies h1 {
+    padding-bottom: 20px;
+}
+
+.companies ul li {
+    display: inline-block;
+    background-color: mediumslateblue;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+}
+
+.contacts {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    padding: 20px 100px;
+}
+
+.contact {
+    width: 25%;
+    height: 100%;
+ 
+    float: left;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.contact h1 {
+    font-weight: 400;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: darkgreen;
+    color: white;
+    padding: 30px 100px;
+
+
+}
+
+.bottom {
+    width: 70%;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.icon-1 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    position: fixed;
+    z-index: 13;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+
+.icon-2 {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(38, 130, 236);
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    position: fixed;
+    z-index: 14;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+.icon-3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 15;
+    height: 10%;
+    width: 100%;
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: start;
+    padding-bottom: 100px;
+}
+@media(max-width:600px){
+    .logo {
+        width: 100%;
+        height: 100%;
+        float: none;
+        text-align: center;
+        padding: 15px;
+    }
+    .content {
+        width: 100%;
+        float: none;
+        padding-right: 20px;
+        text-align: justify;
+        font-weight: 400;
+    }
+    .register {
+        width: 100%;
+        float: none;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+    }
+    .register input,
+textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.course,
+.training,
+.number, .placement {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 20px;
+}
+.batche-data {
+    width: 100%;
+    padding: 50px 150px;
+}
+.left,
+.right {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 10px;
+}
+.student {
+    width: 100%;
+    height: 100%;
+    float: none;
+    text-align: justify;
+    
+}
+.methods {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.contact {
+    width: 100%;
+    height: 100%;
+    float: none;
+    padding: 20px;
+    font-weight: 400;
+}
+#list{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+}
+}
+
+@media(max-width:1000px){
+    .logo {
+        width: 50%;
+        height: 100%;
+        float: none;
+        text-align: center;
+        padding: 15px;
+    }
+    .content {
+        width: 50%;
+        float: none;
+        padding-right: 20px;
+        text-align: justify;
+        font-weight: 400;
+    }
+    .register {
+        width: 50%;
+        float: none;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+    }
+    .register input,
+textarea {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.course,
+.training,
+.number, .placement {
+    width: 50%;
+    float: none;
+    text-align: center;
+    padding: 20px;
+}
+.batche-data {
+    width: 50%;
+    padding: 50px 150px;
+}
+.left,
+.right {
+    width: 50%;
+    float: none;
+    text-align: center;
+    padding: 10px;
+}
+.student {
+    width: 50%;
+    height: 100%;
+    float: none;
+    text-align: justify;
+    
+}
+.methods {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.contact {
+    width: 50%;
+    height: 100%;
+    float: none;
+    padding: 20px;
+    font-weight: 400;
+}
+#list{
+    width: 50%;
+    height: 100%;
+    margin: 20px 0px;
+}
+}
+
+/* @media(max-width:1200px){
+    .content{
+        width: 33.33%;
+    }
+    .register{
+        width: 33.33%;
+    }
+    .batches{
+        width: 33.33%;
+    }
+    .logo{
+        width: 33.33%;
+    }
+    .navigation{
+        width: 33.33%;
+    }
+    .course{
+        width: 33.33%;
+    }
+    .training{
+        width: 33.33%;
+    }
+    .left{
+        width: 33.33%;
+    }
+    .number{
+        width: 33.33%;
+    }
+    .student{
+        width: 33.33%;
+    }
+    .placement{
+        width: 33.33%;
+    }
+    .methods{
+        width: 33.33%;
+    }
+    .contact{
+        width: 33.33%;
+    }
+    .bottom{
+        width: 33.33%;
+    }
+    .bottom2{
+        width: 33.33%;
+    }
+    #list{
+        width: 33.33%;
+    }
+}
+@media(max-width:1000px){
+    .content{
+        width: 50%;
+    }
+    .register{
+        width: 50%;
+    }
+    .batches{
+        width: 50%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .navigation{
+        width: 50%; 
+    }
+    .course{
+        width: 50%;
+    }
+    .training{
+        width: 50%;
+    }
+    .left{
+        width: 50%;
+    }
+    .number{
+        width: 50%;
+    }
+    .student{
+        width: 50%;
+    }
+    .placement{
+        width: 50%;
+    }
+    .methods{
+        width: 50%;
+    }
+    .contact{
+        width: 50%;
+    }
+    .bottom{
+        width: 50%;
+    }
+    .bottom2{
+        width: 50%;
+    }
+    #list{
+        width: 50%;
+    }
+}
+@media(max-width:600px){
+    .content{
+        width: 100%;
+    }
+    .register{
+        width: 100%;
+    }
+    .batches{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .course{
+        width: 100%;
+    }
+    .training{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    .number{
+        width: 100%;
+    }
+    .student{
+        width: 100%;
+    }
+    .placement{
+        width: 100%;
+    }
+    .methods{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .bottom2{
+        width: 100%;
+    }
+    #list{
+        width: 100%;
+    }
+
+} */
